@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 2, 2017, 8:36:36 PM
+    Author     : aiden
+*/
+
+@mixin box-shadow($value)
+{
+    -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    -ms-box-shadow: $value;
+    box-shadow: $value;
+}
+
+@mixin border-radius($value)
+{
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    -ms-border-radius: $value;
+    border-radius: $value;
+}
+
+@mixin appearance($value)
+{
+    -webkit-appearance: $value; 
+    -moz-appearance: $value; 
+    -ms-appearance: $value;
+}
+
+@mixin transform($value)
+{
+    -ms-transform: rotate($value); 
+    -webkit-transform: rotate($value); 
+    transform: rotate($value);
+}
+
+@mixin background-size($value)
+{
+  -webkit-background-size: $value;
+  -moz-background-size: $value;
+  -o-background-size: $value;
+  background-size: $value;
+}
